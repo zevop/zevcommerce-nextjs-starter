@@ -2,7 +2,7 @@ import { isDemoMode } from '@/lib/demo-mode';
 import { zevClient } from '@/lib/zev-client';
 import { mockCollections, mockCollectionProducts } from '@/data/mock/collections';
 import { mockProducts } from '@/data/mock/products';
-import type { Collection, Product } from '@zevop/commerce-storefront';
+import type { Collection, Product } from '@zevcommerce/storefront';
 
 export async function getCollections(): Promise<Collection[]> {
     if (isDemoMode()) return mockCollections;

@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import type { Product } from '@zevop/commerce-storefront';
+import type { Product } from '@zevcommerce/storefront';
 import { PriceDisplay } from '@/components/product/PriceDisplay';
 import { VariantSelector } from '@/components/product/VariantSelector';
 import { AddToCartButton } from '@/components/product/AddToCartButton';

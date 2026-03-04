@@ -8,7 +8,7 @@ import { ROUTES } from '@/lib/constants';
 import { getProductBySlug } from '@/lib/api/products';
 import { isDemoMode } from '@/lib/demo-mode';
 import { mockProducts } from '@/data/mock/products';
-import type { Product } from '@zevop/commerce-storefront';
+import type { Product } from '@zevcommerce/storefront';
 
 export const metadata: Metadata = {
     title: 'Search',

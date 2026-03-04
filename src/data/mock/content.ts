@@ -1,4 +1,4 @@
-import type { Page, Blog, Article } from '@zevop/commerce-storefront';
+import type { Page, Blog, Article } from '@zevcommerce/storefront';
 
 export const mockPages: Page[] = [
     {

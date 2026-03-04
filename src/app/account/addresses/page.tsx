@@ -11,7 +11,7 @@ import { EmptyState } from '@/components/ui/EmptyState';
 import { Skeleton } from '@/components/ui/Skeleton';
 import { useToast } from '@/contexts/ToastContext';
 import { getAddresses, addAddress, updateAddress, deleteAddress } from '@/lib/api/customer';
-import type { CustomerAddress } from '@zevop/commerce-storefront';
+import type { CustomerAddress } from '@zevcommerce/storefront';
 
 const emptyAddress: AddressFormData = {
     firstName: '', lastName: '', address1: '', city: '', state: '', country: 'NG', zip: '', phone: '',

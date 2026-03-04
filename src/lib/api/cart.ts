@@ -1,7 +1,7 @@
 import { isDemoMode } from '@/lib/demo-mode';
 import { zevClient } from '@/lib/zev-client';
 import { mockEmptyCart, mockCartWithItems } from '@/data/mock/cart';
-import type { Cart, CartItemInput, CartLine } from '@zevop/commerce-storefront';
+import type { Cart, CartItemInput, CartLine } from '@zevcommerce/storefront';
 import { STORAGE_KEYS } from '@/lib/constants';
 
 // Helper to simulate a network delay

@@ -4,7 +4,7 @@
 ## Tech Stack & Architecture
 - **Framework**: Next.js 16 (App Router)
 - **Styling**: Tailwind CSS v4 (with standard CSS custom properties for theming)
-- **SDK**: `@zevop/commerce-storefront`
+- **SDK**: `@zevcommerce/storefront`
 - **Patterns**: Server Components for data fetching, Client Components for interactivity (Cart, Checkout, Auth).
 
 ## Critical Project Map

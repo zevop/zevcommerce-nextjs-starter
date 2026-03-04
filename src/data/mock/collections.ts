@@ -1,4 +1,4 @@
-import type { Collection } from '@zevop/commerce-storefront';
+import type { Collection } from '@zevcommerce/storefront';
 
 export const mockCollections: Collection[] = [
     {

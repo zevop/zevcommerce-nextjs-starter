@@ -1,4 +1,4 @@
-import type { Collection } from '@zevop/commerce-storefront';
+import type { Collection } from '@zevcommerce/storefront';
 import { CollectionCard } from './CollectionCard';
 import { EmptyState } from '@/components/ui/EmptyState';
 import { Layers } from 'lucide-react';

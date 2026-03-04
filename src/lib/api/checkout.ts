@@ -1,6 +1,6 @@
 import { isDemoMode } from '@/lib/demo-mode';
 import { zevClient } from '@/lib/zev-client';
-import type { Order, CheckoutVerification } from '@zevop/commerce-storefront';
+import type { Order, CheckoutVerification } from '@zevcommerce/storefront';
 
 export async function cartCheckout(input: {
     cartId: string;

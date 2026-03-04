@@ -124,7 +124,7 @@ export async function getProducts() {
 
 ## SDK Methods Used
 
-This starter uses all modules from `@zevop/commerce-storefront`:
+This starter uses all modules from `@zevcommerce/storefront`:
 
 | Module | Methods | Pages |
 |---|---|---|
@@ -207,7 +207,7 @@ Any platform that supports Node.js 18+ and Next.js works. Set the same environme
 
 - [Next.js 16](https://nextjs.org/) — React framework with App Router
 - [Tailwind CSS v4](https://tailwindcss.com/) — Utility-first CSS
-- [@zevop/commerce-storefront](https://www.npmjs.com/package/@zevop/commerce-storefront) — ZevCommerce Storefront SDK
+- [@zevcommerce/storefront](https://www.npmjs.com/package/@zevcommerce/storefront) — ZevCommerce Storefront SDK
 - [lucide-react](https://lucide.dev/) — Icons
 - [clsx](https://github.com/lukeed/clsx) + [tailwind-merge](https://github.com/dcastil/tailwind-merge) — Class utilities
 - TypeScript strict mode

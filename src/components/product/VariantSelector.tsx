@@ -1,6 +1,6 @@
 'use client';
 
-import type { ProductVariant } from '@zevop/commerce-storefront';
+import type { ProductVariant } from '@zevcommerce/storefront';
 import { cn } from '@/lib/utils';
 
 interface VariantSelectorProps {

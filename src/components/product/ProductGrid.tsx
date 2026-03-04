@@ -1,4 +1,4 @@
-import type { Product } from '@zevop/commerce-storefront';
+import type { Product } from '@zevcommerce/storefront';
 import { ProductCard } from './ProductCard';
 import { EmptyState } from '@/components/ui/EmptyState';
 import { ShoppingBag } from 'lucide-react';

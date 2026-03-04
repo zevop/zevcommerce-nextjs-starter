@@ -1,4 +1,4 @@
-import type { CustomerProfile, CustomerAddress } from '@zevop/commerce-storefront';
+import type { CustomerProfile, CustomerAddress } from '@zevcommerce/storefront';
 
 export const mockCustomerProfile: CustomerProfile = {
     id: 'cust_001',

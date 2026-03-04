@@ -1,4 +1,4 @@
-import type { StorefrontConfig, PaymentMethod, ShippingZone, Menu } from '@zevop/commerce-storefront';
+import type { StorefrontConfig, PaymentMethod, ShippingZone, Menu } from '@zevcommerce/storefront';
 
 export const mockStorefrontConfig: StorefrontConfig = {
     id: 'store_001',

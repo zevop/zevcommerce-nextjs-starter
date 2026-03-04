@@ -1,4 +1,4 @@
-import type { SearchResults } from '@zevop/commerce-storefront';
+import type { SearchResults } from '@zevcommerce/storefront';
 import { mockProducts } from './products';
 import { mockCollections } from './collections';
 import { mockPages } from './content';

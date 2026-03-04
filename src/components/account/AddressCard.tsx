@@ -2,7 +2,7 @@
 
 import { MapPin, Pencil, Trash2 } from 'lucide-react';
 import { Badge } from '@/components/ui/Badge';
-import type { CustomerAddress } from '@zevop/commerce-storefront';
+import type { CustomerAddress } from '@zevcommerce/storefront';
 
 interface AddressCardProps {
     address: CustomerAddress;

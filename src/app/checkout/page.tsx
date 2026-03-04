@@ -15,7 +15,7 @@ import { formatPrice } from '@/lib/utils';
 import { cartCheckout } from '@/lib/api/checkout';
 import { getShippingRates, getPaymentMethods } from '@/lib/api/storefront';
 import { ROUTES } from '@/lib/constants';
-import type { ShippingRate, PaymentMethod, Order } from '@zevop/commerce-storefront';
+import type { ShippingRate, PaymentMethod, Order } from '@zevcommerce/storefront';
 
 const STEPS = ['Information', 'Shipping', 'Payment', 'Confirmation'];
 

@@ -1,7 +1,7 @@
 'use client';
 
 import { createContext, useContext, type ReactNode } from 'react';
-import type { StorefrontConfig } from '@zevop/commerce-storefront';
+import type { StorefrontConfig } from '@zevcommerce/storefront';
 
 interface StoreContextValue {
     config: StorefrontConfig;

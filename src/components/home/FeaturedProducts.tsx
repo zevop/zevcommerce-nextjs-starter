@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
-import type { Product } from '@zevop/commerce-storefront';
+import type { Product } from '@zevcommerce/storefront';
 import { ProductCard } from '@/components/product/ProductCard';
 import { ROUTES } from '@/lib/constants';
 

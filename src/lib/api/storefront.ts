@@ -1,7 +1,7 @@
 import { isDemoMode } from '@/lib/demo-mode';
 import { zevClient } from '@/lib/zev-client';
 import { mockStorefrontConfig, mockPaymentMethods, mockShippingZones, mockMenu } from '@/data/mock/storefront';
-import type { StorefrontConfig, PaymentMethod, ShippingZone, ShippingRate, Menu } from '@zevop/commerce-storefront';
+import type { StorefrontConfig, PaymentMethod, ShippingZone, ShippingRate, Menu } from '@zevcommerce/storefront';
 
 export async function getStorefrontConfig(): Promise<StorefrontConfig> {
     if (isDemoMode()) return mockStorefrontConfig;

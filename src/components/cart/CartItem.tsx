@@ -3,7 +3,7 @@
 import { Minus, Plus, Trash2 } from 'lucide-react';
 import { useCart } from '@/contexts/CartContext';
 import { formatPrice } from '@/lib/utils';
-import type { CartLine } from '@zevop/commerce-storefront';
+import type { CartLine } from '@zevcommerce/storefront';
 
 interface CartItemProps {
     line: CartLine;

@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
-import type { Collection } from '@zevop/commerce-storefront';
+import type { Collection } from '@zevcommerce/storefront';
 import { ROUTES } from '@/lib/constants';
 
 interface CollectionCardProps {

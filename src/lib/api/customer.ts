@@ -2,7 +2,7 @@ import { isDemoMode } from '@/lib/demo-mode';
 import { zevClient } from '@/lib/zev-client';
 import { mockCustomerProfile, mockAddresses } from '@/data/mock/customer';
 import { mockOrders } from '@/data/mock/orders';
-import type { CustomerProfile, CustomerAddress } from '@zevop/commerce-storefront';
+import type { CustomerProfile, CustomerAddress } from '@zevcommerce/storefront';
 
 export async function getProfile(): Promise<CustomerProfile> {
     if (isDemoMode()) return { ...mockCustomerProfile };

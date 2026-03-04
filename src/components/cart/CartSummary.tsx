@@ -1,5 +1,5 @@
 import { formatPrice } from '@/lib/utils';
-import type { Cart } from '@zevop/commerce-storefront';
+import type { Cart } from '@zevcommerce/storefront';
 
 interface CartSummaryProps {
     cart: Cart;

@@ -1,7 +1,7 @@
 import { isDemoMode } from '@/lib/demo-mode';
 import { zevClient } from '@/lib/zev-client';
 import { mockCustomerProfile } from '@/data/mock/customer';
-import type { AuthResponse, AuthMessage } from '@zevop/commerce-storefront';
+import type { AuthResponse, AuthMessage } from '@zevcommerce/storefront';
 
 export async function login(email: string, password: string): Promise<AuthResponse> {
     if (isDemoMode()) {

@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import type { Product } from '@zevop/commerce-storefront';
+import type { Product } from '@zevcommerce/storefront';
 import { PriceDisplay } from './PriceDisplay';
 import { getMediaUrl } from '@/lib/utils';
 import { ROUTES } from '@/lib/constants';

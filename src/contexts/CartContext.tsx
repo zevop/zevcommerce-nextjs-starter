@@ -3,7 +3,7 @@
 import { createContext, useContext, useState, useCallback, useEffect, type ReactNode } from 'react';
 import { STORAGE_KEYS } from '@/lib/constants';
 import { createCart, getCart, addCartLines, updateCartLines } from '@/lib/api/cart';
-import type { Cart, CartLine } from '@zevop/commerce-storefront';
+import type { Cart, CartLine } from '@zevcommerce/storefront';
 
 interface CartContextValue {
     cart: Cart | null;

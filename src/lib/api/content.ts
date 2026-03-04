@@ -1,7 +1,7 @@
 import { isDemoMode } from '@/lib/demo-mode';
 import { zevClient } from '@/lib/zev-client';
 import { mockPages, mockBlogs, mockArticles } from '@/data/mock/content';
-import type { Page, Blog, Article } from '@zevop/commerce-storefront';
+import type { Page, Blog, Article } from '@zevcommerce/storefront';
 
 export async function getPages(): Promise<Page[]> {
     if (isDemoMode()) return mockPages;

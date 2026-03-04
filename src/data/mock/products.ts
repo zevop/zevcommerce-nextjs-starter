@@ -1,4 +1,4 @@
-import type { Product, PaginationMeta } from '@zevop/commerce-storefront';
+import type { Product, PaginationMeta } from '@zevcommerce/storefront';
 
 export const mockProducts: Product[] = [
     {

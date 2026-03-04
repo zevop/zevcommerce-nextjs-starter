@@ -1,4 +1,4 @@
-import type { Cart } from '@zevop/commerce-storefront';
+import type { Cart } from '@zevcommerce/storefront';
 
 /** Empty cart for initial demo state */
 export const mockEmptyCart: Cart = {

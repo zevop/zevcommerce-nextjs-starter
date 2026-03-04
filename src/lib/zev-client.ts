@@ -1,4 +1,4 @@
-import { ZevClient } from '@zevop/commerce-storefront';
+import { ZevClient } from '@zevcommerce/storefront';
 
 const ZEV_ENDPOINT = process.env.NEXT_PUBLIC_ZEV_ENDPOINT || 'http://localhost:3000/graphql/v1';
 

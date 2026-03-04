@@ -1,7 +1,7 @@
 import { isDemoMode } from '@/lib/demo-mode';
 import { zevClient } from '@/lib/zev-client';
 import { mockProducts, mockProductsMeta } from '@/data/mock/products';
-import type { Product, PaginationMeta } from '@zevop/commerce-storefront';
+import type { Product, PaginationMeta } from '@zevcommerce/storefront';
 
 export async function getProducts(params?: { page?: number; limit?: number }): Promise<{ data: Product[]; meta: PaginationMeta }> {
     if (isDemoMode()) {
